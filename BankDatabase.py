@@ -9,7 +9,7 @@ mydb = mysql.connector.connect(
 
 
 Cursor = mydb.cursor()
-Cursor.execute("CREATE DATABASE mydatabase") 
+#Cursor.execute("CREATE DATABASE mydatabase") 
 Cursor.execute("DROP TABLE IF EXISTS bankdetails")
 Cursor.execute("""CREATE TABLE IF NOT EXISTS bankdetails (ACCOUNT_NO INT PRIMARY KEY NOT NULL,CARD_NO INT NOT NULL, NAME VARCHAR(255) NOT NULL,BALANCE INT NOT NULL,PIN VARCHAR(255))""")
 

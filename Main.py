@@ -1,7 +1,7 @@
 from Bank import Bank
 from BankDatabase import Fetch 
 
-print("-------------------------------------------Welcome To the Indian Bank----------------------------------------")
+print("-------------------------------------------Welcome To the Indian Bank ATM----------------------------------------")
 
 bank = input("Enter the Bank : ").strip().upper()
 card_no = int(input("Enter your card no : "))
